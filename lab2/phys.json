@@ -1,0 +1,909 @@
+{
+  "name": "BSc in Physics",
+  "ref": "24-25phys.pdf",
+  "year": "2024-25",
+  "metadata": {
+    "choiceMapping": {},
+    "allowDuplication": [
+      "864325e2-e48e-4090-9721-faa37674725a",
+      "32533885-5287-4147-a1ad-025396e233b2",
+      "b79a56e5-3d52-4df4-9986-74bbb09929e1",
+      "809dcdc4-733e-4bf9-b0bf-c8c37ab64603",
+      "7710658c-4895-4f43-a057-0570e3cd9cb9",
+      "1d94b514-96bc-4b11-ba36-bd4e1c8ce9df",
+      "43fa8299-95cc-4e07-be11-eda5ba1c66fe",
+      "268f5cec-bbdf-4b58-8719-d36422a9be70"
+    ]
+  },
+  "prerequisite": {
+    "description": "",
+    "courses": [],
+    "groups": [
+      {
+        "id": "864325e2-e48e-4090-9721-faa37674725a",
+        "name": "PHYS Prerequisite 1",
+        "description": "Note: PHYS 1111 OR PHYS 1112 OR PHYS 1312 (Students taking IRE Track can only use PHYS 1312 to fulfill the requirement.)",
+        "minUnit": 3,
+        "rule": {
+          "type": "OR"
+        },
+        "courses": [
+          {
+            "code": "PHYS1111",
+            "name": "General Physics I",
+            "unit": 3
+          },
+          {
+            "code": "PHYS1112",
+            "name": "General Physics I with Calculus",
+            "unit": 3
+          },
+          {
+            "code": "PHYS1312",
+            "name": "Honors General Physics I",
+            "unit": 3
+          }
+        ],
+        "groups": []
+      },
+      {
+        "id": "32533885-5287-4147-a1ad-025396e233b2",
+        "name": "PHYS Prerequisite 2",
+        "description": "Note: PHYS 1114 OR PHYS 1314 (Students taking IRE Track can only use PHYS 1314 to fulfill the requirement.)",
+        "minUnit": 3,
+        "rule": {
+          "type": "OR"
+        },
+        "courses": [
+          {
+            "code": "PHYS1114",
+            "name": "General Physics II",
+            "unit": 3
+          },
+          {
+            "code": "PHYS1314",
+            "name": "Honors General Physics II",
+            "unit": 3
+          }
+        ],
+        "groups": []
+      }
+    ]
+  },
+  "fundamental": {
+    "description": "",
+    "courses": [],
+    "groups": []
+  },
+  "required": {
+    "description": "",
+    "courses": [
+      {
+        "code": "PHYS1113",
+        "name": "Laboratory for General Physics I",
+        "unit": 1
+      },
+      {
+        "code": "PHYS1115",
+        "name": "Laboratory for General Physics II",
+        "unit": 1
+      },
+      {
+        "code": "PHYS2022",
+        "name": "Modern Physics",
+        "unit": 3
+      },
+      {
+        "code": "PHYS2023",
+        "name": "Modern Physics Laboratory",
+        "unit": 1
+      },
+      {
+        "code": "PHYS2080",
+        "name": "Physics Seminar and Tutorial I",
+        "unit": 1
+      },
+      {
+        "code": "PHYS3032",
+        "name": "Classical Mechanics",
+        "unit": 3
+      },
+      {
+        "code": "PHYS3152",
+        "name": "Methods of Experimental Physics I",
+        "unit": 3
+      },
+      {
+        "code": "PHYS3153",
+        "name": "Methods of Experimental Physics II",
+        "unit": 3
+      },
+      {
+        "code": "PHYS4050",
+        "name": "Thermodynamics and Statistical Physics",
+        "unit": 3
+      },
+      {
+        "code": "PHYS4080",
+        "name": "Physics Seminar and Tutorial II",
+        "unit": 1
+      }
+    ],
+    "groups": [
+      {
+        "id": "b79a56e5-3d52-4df4-9986-74bbb09929e1",
+        "name": "Electricity and Magnetism",
+        "description": "Note: PHYS 3033 OR PHYS 3053 (Students taking IRE Track or Honors Physics Option can only use PHYS 3053 fo fulfill the requirement.)",
+        "minUnit": 3,
+        "rule": {
+          "type": "OR"
+        },
+        "courses": [
+          {
+            "code": "PHYS3033",
+            "name": "Electricity and Magnetism I",
+            "unit": 3
+          },
+          {
+            "code": "PHYS3053",
+            "name": "Honors Electricity and Magnetism I",
+            "unit": 4
+          }
+        ],
+        "groups": []
+      },
+      {
+        "id": "809dcdc4-733e-4bf9-b0bf-c8c37ab64603",
+        "name": "Quantum Mechanics I",
+        "description": "Note: PHYS 3036 OR PHYS 3037 (Students taking IRE Track or Honors Physics Option can only use PHYS 3037 to fulfill the requirement.)",
+        "minUnit": 3,
+        "rule": {
+          "type": "OR"
+        },
+        "courses": [
+          {
+            "code": "PHYS3036",
+            "name": "Quantum Mechanics I",
+            "unit": 3
+          },
+          {
+            "code": "PHYS3037",
+            "name": "Honors Quantum Mechanics I",
+            "unit": 4
+          }
+        ],
+        "groups": []
+      },
+      {
+        "id": "7710658c-4895-4f43-a057-0570e3cd9cb9",
+        "name": "Computational Methods",
+        "description": "Note: PHYS 3142 OR MATH 3312 (Students taking the Physics and Mathematics Option may take either MATH 3312 or PHYS 3142. Other students can only take PHYS 3142 to fulfill the requirement.)",
+        "minUnit": 3,
+        "rule": {
+          "type": "OR"
+        },
+        "courses": [
+          {
+            "code": "MATH3312",
+            "name": "Numerical Analysis",
+            "unit": 3
+          },
+          {
+            "code": "PHYS3142",
+            "name": "Computational Methods in Physics",
+            "unit": 3
+          }
+        ],
+        "groups": []
+      },
+      {
+        "id": "1d94b514-96bc-4b11-ba36-bd4e1c8ce9df",
+        "name": "Capstone Project / Research",
+        "description": "Note: PHYS 4191 OR PHYS 4291 OR (SCIE 3500 AND SCIE 4500) (Students taking IRE Track can only use (SCIE 3500 AND SCIE 4500) to fulfill the requirement; those taking Honors Physics Option can only use PHYS 4291 to fulfill the requirement.)",
+        "minUnit": 4,
+        "rule": {
+          "type": "OR"
+        },
+        "courses": [
+          {
+            "code": "PHYS4191",
+            "name": "Capstone Project",
+            "unit": 4
+          },
+          {
+            "code": "PHYS4291",
+            "name": "Capstone Research",
+            "unit": 6
+          }
+        ],
+        "groups": [
+          {
+            "id": "aacfcb4a-ebca-45ae-845b-e2033bbccb3c",
+            "name": "IRE Research Project I and II",
+            "description": "SCIE 3500 AND SCIE 4500",
+            "minUnit": null,
+            "rule": {
+              "type": "AND"
+            },
+            "courses": [
+              {
+                "code": "SCIE3500",
+                "name": "IRE Research Project I",
+                "unit": 3
+              },
+              {
+                "code": "SCIE4500",
+                "name": "IRE Research Project II",
+                "unit": 3
+              }
+            ],
+            "groups": []
+          }
+        ]
+      },
+      {
+        "id": "e5f6a7b8-c9d0-1234-5678-90abcdef1234",
+        "name": "Applications of Physics",
+        "description": "Note: PHYS 4811 OR PHYS 4812 OR PHYS 4813 OR PHYS 4814 (2 courses out of 4)",
+        "minUnit": 2,
+        "rule": {
+          "type": "MIN_COURSE",
+          "minCourse": 2
+        },
+        "courses": [
+          {
+            "code": "PHYS4811",
+            "name": "Contemporary Applications of Physics: Machine Learning in Physics",
+            "unit": 1
+          },
+          {
+            "code": "PHYS4812",
+            "name": "Contemporary Applications of Physics: Quantum Information Technology",
+            "unit": 1
+          },
+          {
+            "code": "PHYS4813",
+            "name": "Contemporary Applications of Physics: Atmospheric Physics - Making Sense of Weather and Climate",
+            "unit": 1
+          },
+          {
+            "code": "PHYS4814",
+            "name": "Contemporary Applications of Physics: Medical Physics",
+            "unit": 1
+          }
+        ],
+        "groups": []
+      },
+      {
+        "id": "6d1082c5-9e00-4c08-b3bc-6cb231926371",
+        "name": "MATH Calculus",
+        "description": "Note: [(MATH 1012 OR MATH 1013 OR MATH 1023) AND (MATH 1014 OR MATH 1024)] OR [MATH 1020]",
+        "minUnit": 4,
+        "rule": {
+          "type": "OR"
+        },
+        "courses": [
+          {
+            "code": "MATH1020",
+            "name": "Accelerated Calculus",
+            "unit": 4
+          }
+        ],
+        "groups": [
+          {
+            "id": "ef940b78-b0ba-4ec9-bd2d-5a6cbf5bb8e0",
+            "name": "Calculus Sequence",
+            "description": "(MATH 1012 OR MATH 1013 OR MATH 1023) AND (MATH 1014 OR MATH 1024)",
+            "minUnit": null,
+            "rule": {
+              "type": "AND"
+            },
+            "courses": [],
+            "groups": [
+              {
+                "id": "2ae7a4bf-9fef-4077-96ee-cbb6e90c63af",
+                "name": "Calculus I Options",
+                "description": "",
+                "minUnit": null,
+                "rule": {
+                  "type": "OR"
+                },
+                "courses": [
+                  {
+                    "code": "MATH1012",
+                    "name": "Calculus IA",
+                    "unit": 4
+                  },
+                  {
+                    "code": "MATH1013",
+                    "name": "Calculus IB",
+                    "unit": 3
+                  },
+                  {
+                    "code": "MATH1023",
+                    "name": "Honors Calculus I",
+                    "unit": 3
+                  }
+                ],
+                "groups": []
+              },
+              {
+                "id": "28cd6cb6-b9e8-4bb2-9693-571c9594262a",
+                "name": "Calculus II Options",
+                "description": "",
+                "minUnit": null,
+                "rule": {
+                  "type": "OR"
+                },
+                "courses": [
+                  {
+                    "code": "MATH1014",
+                    "name": "Calculus II",
+                    "unit": 3
+                  },
+                  {
+                    "code": "MATH1024",
+                    "name": "Honors Calculus II",
+                    "unit": 3
+                  }
+                ],
+                "groups": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "43fa8299-95cc-4e07-be11-eda5ba1c66fe",
+        "name": "Multivariable Calculus",
+        "description": "Note: MATH 2011 OR MATH 2023 (Students in Honors Physics Option, Physics and Mathematics Option and IRE Track can only use MATH 2023 to fulfill the requirement)",
+        "minUnit": 3,
+        "rule": {
+          "type": "OR"
+        },
+        "courses": [
+          {
+            "code": "MATH2011",
+            "name": "Introduction to Multivariable Calculus",
+            "unit": 3
+          },
+          {
+            "code": "MATH2023",
+            "name": "Multivariable Calculus",
+            "unit": 4
+          }
+        ],
+        "groups": []
+      },
+      {
+        "id": "268f5cec-bbdf-4b58-8719-d36422a9be70",
+        "name": "Linear Algebra",
+        "description": "Note: MATH 2111 OR MATH 2121 OR MATH 2131 (Students in Honors Physics Option, Physics and Mathematics Option and IRE Track can only use MATH 2121 OR MATH 2131 to fulfill the requirement)",
+        "minUnit": 3,
+        "rule": {
+          "type": "OR"
+        },
+        "courses": [
+          {
+            "code": "MATH2111",
+            "name": "Matrix Algebra and Applications",
+            "unit": 3
+          },
+          {
+            "code": "MATH2121",
+            "name": "Linear Algebra",
+            "unit": 4
+          },
+          {
+            "code": "MATH2131",
+            "name": "Honors in Linear and Abstract Algebra I",
+            "unit": 4
+          }
+        ],
+        "groups": []
+      },
+      {
+        "id": "b7e872d1-e7eb-4747-b370-37190a58d7fa",
+        "name": "Mathematics",
+        "description": "",
+        "minUnit": 3,
+        "rule": {
+          "type": "OR"
+        },
+        "courses": [
+          {
+            "code": "MATH2352",
+            "name": "Differential Equations",
+            "unit": 4
+          },
+          {
+            "code": "PHYS2124",
+            "name": "Mathematical Methods in Physics I",
+            "unit": 3
+          }
+        ],
+        "groups": []
+      }
+    ]
+  },
+  "elective": {
+    "description": "",
+    "courses": [],
+    "groups": []
+  },
+  "track": {
+    "name": "track",
+    "description": "",
+    "courses": [],
+    "groups": [
+      {
+        "id": "6df33bd3-6ef9-468a-bc12-13793e65069a",
+        "name": "International Research Enrichment Track",
+        "description": "",
+        "minUnit": null,
+        "rule": {
+          "type": "AND"
+        },
+        "courses": [
+          {
+            "code": "PHYS1312",
+            "name": "Honors General Physics I",
+            "unit": 3
+          },
+          {
+            "code": "PHYS1314",
+            "name": "Honors General Physics II",
+            "unit": 3
+          },
+          {
+            "code": "MATH2023",
+            "name": "Multivariable Calculus",
+            "unit": 4
+          },
+          {
+            "code": "PHYS3034",
+            "name": "Electricity and Magnetism II",
+            "unit": 3
+          },
+          {
+            "code": "PHYS3037",
+            "name": "Honors Quantum Mechanics I",
+            "unit": 4
+          },
+          {
+            "code": "PHYS3053",
+            "name": "Honors Electricity and Magnetism I",
+            "unit": 4
+          },
+          {
+            "code": "PHYS3090",
+            "name": "Directed Studies in Physics II",
+            "unit": 1
+          },
+          {
+            "code": "PHYS4051",
+            "name": "Quantum Mechanics II",
+            "unit": 3
+          }
+        ],
+        "groups": [
+          {
+            "id": "451be2fb-1b34-4980-b16b-d1930111575f",
+            "name": "Elective Courses",
+            "description": "",
+            "minUnit": 3,
+            "rule": {
+              "type": "MIN_UNIT",
+              "minUnit": 3
+            },
+            "courses": [
+                {
+                    "code": "*PHYS3+",
+                    "name": "Any PHYS courses at 3000-level or above",
+                    "unit": 0
+                },
+              {
+                "code": "PHYS2010",
+                "name": "Introductory Biological Physics",
+                "unit": 3
+              },
+              {
+                "code": "PHYS2021",
+                "name": "Black Holes and the Early Universe",
+                "unit": 3
+              },
+              {
+                "code": "PHYS2090",
+                "name": "Directed Studies in Physics I",
+                "unit": 1
+              }
+            ],
+            "groups": []
+          },
+          {
+            "id": "bb6b9724-604e-46c7-a819-0e9a51579435",
+            "name": "Mathematics",
+            "description": "",
+            "minUnit": 3,
+            "rule": {
+              "type": "OR"
+            },
+            "courses": [
+              {
+                "code": "PHYS3031",
+                "name": "Mathematical Methods in Physics II",
+                "unit": 3
+              }
+            ],
+            "groups": [
+              {
+                "id": "7f459b56-4f97-4d43-ab9e-4365a4ccc3b4",
+                "name": "Mathematics (MATH)",
+                "description": "",
+                "minUnit": null,
+                "rule": {
+                  "type": "AND"
+                },
+                "courses": [
+                  {
+                    "code": "MATH4023",
+                    "name": "Complex Analysis",
+                    "unit": 3
+                  },
+                  {
+                    "code": "MATH4052",
+                    "name": "Partial Differential Equations",
+                    "unit": 3
+                  }
+                ],
+                "groups": []
+              }
+            ]
+          },
+          {
+            "id": "4857128a-1b9c-49a8-a40a-40ba3bddb9a4",
+            "name": "IRE Research Project",
+            "description": "",
+            "minUnit": 6,
+            "rule": {
+              "type": "AND"
+            },
+            "courses": [
+              {
+                "code": "SCIE3500",
+                "name": "IRE Research Project I",
+                "unit": 3
+              },
+              {
+                "code": "SCIE4500",
+                "name": "IRE Research Project II",
+                "unit": 3
+              }
+            ],
+            "groups": []
+          },
+          {
+            "id": "0eaf5074-99f4-4832-8fa7-f31092b62897",
+            "name": "Linear Algebra",
+            "description": "",
+            "minUnit": 4,
+            "rule": {
+              "type": "OR"
+            },
+            "courses": [
+              {
+                "code": "MATH2121",
+                "name": "Linear Algebra",
+                "unit": 4
+              },
+              {
+                "code": "MATH2131",
+                "name": "Honors in Linear and Abstract Algebra I",
+                "unit": 4
+              }
+            ],
+            "groups": []
+          }
+        ]
+      }
+    ]
+  },
+  "option": {
+    "name": "option",
+    "description": "",
+    "courses": [],
+    "groups": [
+      {
+        "id": "f726a5c1-2420-4551-a5e2-8ad3e6d1bf27",
+        "name": "Honors Physics Option",
+        "description": "Students in the Honors Physics Option should also take PHYS 3053, PHYS 3037, and PHYS 4291 as specified in the major requirements.",
+        "minUnit": null,
+        "rule": {
+          "type": "AND"
+        },
+        "courses": [
+          {
+            "code": "MATH2023",
+            "name": "Multivariable Calculus",
+            "unit": 4
+          },
+          {
+            "code": "PHYS3034",
+            "name": "Electricity and Magnetism II",
+            "unit": 3
+          },
+          {
+            "code": "PHYS3037",
+            "name": "Honors Quantum Mechanics I",
+            "unit": 4
+          },
+          {
+            "code": "PHYS3053",
+            "name": "Honors Electricity and Magnetism I",
+            "unit": 4
+          },
+          {
+            "code": "PHYS4051",
+            "name": "Quantum Mechanics II",
+            "unit": 3
+          },
+          {
+            "code": "PHYS4291",
+            "name": "Capstone Research",
+            "unit": 6
+          }
+        ],
+        "groups": [
+          {
+            "id": "b164376f-a0b4-4b8d-aa2a-f279e79318ce",
+            "name": "Mathematical Methods in Physics II / Analysis Options",
+            "description": "Note: PHYS 3031 OR (MATH 4023 AND MATH 4052)",
+            "minUnit": 3,
+            "rule": {
+              "type": "OR"
+            },
+            "courses": [
+              {
+                "code": "PHYS3031",
+                "name": "Mathematical Methods in Physics II",
+                "unit": 3
+              }
+            ],
+            "groups": [
+              {
+                "id": "34d15f9e-877f-426a-9a9e-2f9be98c93a6",
+                "name": "Analysis",
+                "description": "MATH 4023 AND MATH 4052",
+                "minUnit": null,
+                "rule": {
+                  "type": "AND"
+                },
+                "courses": [
+                  {
+                    "code": "MATH4023",
+                    "name": "Complex Analysis",
+                    "unit": 3
+                  },
+                  {
+                    "code": "MATH4052",
+                    "name": "Partial Differential Equations",
+                    "unit": 3
+                  }
+                ],
+                "groups": []
+              }
+            ]
+          },
+          {
+            "id": "28cc8812-edce-4979-a9bd-b0a5119405df",
+            "name": "Linear Algebra",
+            "description": "",
+            "minUnit": 4,
+            "rule": {
+              "type": "OR"
+            },
+            "courses": [
+              {
+                "code": "MATH2121",
+                "name": "Linear Algebra",
+                "unit": 4
+              },
+              {
+                "code": "MATH2131",
+                "name": "Honors in Linear and Abstract Algebra I",
+                "unit": 4
+              }
+            ],
+            "groups": []
+          },
+          {
+            "id": "da931035-c3ce-4527-8682-a6c8f3361c4d",
+            "name": "Honors Electives",
+            "description": "",
+            "minUnit": 3,
+            "rule": {
+              "type": "MIN_UNIT",
+              "minUnit": 3
+            },
+            "courses": [
+              {
+                "code": "*PHYS3+",
+                "name": "Any PHYS courses at 3000-level or above",
+                "unit": 0
+              },
+              {
+                "code": "PHYS2010",
+                "name": "Introductory Biological Physics",
+                "unit": 3
+              },
+              {
+                "code": "PHYS2021",
+                "name": "Black Holes and the Early Universe",
+                "unit": 3
+              },
+              {
+                "code": "PHYS2090",
+                "name": "Directed Studies in Physics I",
+                "unit": 1
+              }
+            ],
+            "groups": []
+          }
+        ]
+      },
+      {
+        "id": "1ad1567f-8787-441f-8a6a-45d95f6f3d60",
+        "name": "Physics and Mathematics Option",
+        "description": "",
+        "minUnit": null,
+        "rule": {
+          "type": "AND"
+        },
+        "courses": [
+          {
+            "code": "MATH2023",
+            "name": "Multivariable Calculus",
+            "unit": 4
+          },
+          {
+            "code": "MATH2033",
+            "name": "Mathematical Analysis",
+            "unit": 4
+          },
+                  {
+                    "code": "MATH4023",
+                    "name": "Complex Analysis",
+                    "unit": 3
+                  },
+                  {
+                    "code": "MATH4052",
+                    "name": "Partial Differential Equations",
+                    "unit": 3
+                  }
+        ],
+        "groups": [
+          {
+            "id": "3f94b646-19bf-4fee-972c-6c35818633e2",
+            "name": "Mathematics I",
+            "description": "MATH 2352 or PHYS 2124",
+            "minUnit": 3,
+            "rule": {
+              "type": "OR"
+            },
+            "courses": [
+              {
+                "code": "MATH2352",
+                "name": "Differential Equations",
+                "unit": 4
+              },
+              {
+                "code": "PHYS2124",
+                "name": "Mathematical Methods in Physics I",
+                "unit": 3
+              }
+            ],
+            "groups": []
+          },
+          {
+            "id": "8f15575e-2567-444a-a184-790c7695157e",
+            "name": "Mathematics II",
+            "description": "MATH 3312 or PHYS 3142",
+            "minUnit": 3,
+            "rule": {
+              "type": "OR"
+            },
+            "courses": [
+              {
+                "code": "MATH3312",
+                "name": "Numerical Analysis",
+                "unit": 3
+              },
+              {
+                "code": "PHYS3142",
+                "name": "Computational Methods in Physics",
+                "unit": 3
+              }
+            ],
+            "groups": []
+          },
+          {
+            "id": "1a590ad5-68ea-4102-8a75-118b5df2d528",
+            "name": "Linear Algebra",
+            "description": "",
+            "minUnit": 4,
+            "rule": {
+              "type": "OR"
+            },
+            "courses": [
+              {
+                "code": "MATH2121",
+                "name": "Linear Algebra",
+                "unit": 4
+              },
+              {
+                "code": "MATH2131",
+                "name": "Honors in Linear and Abstract Algebra I",
+                "unit": 4
+              }
+            ],
+            "groups": []
+          },
+          {
+            "id": "9c5c9962-4f9e-4191-8e5f-e10125180268",
+            "name": "Advanced Physics",
+            "description": "",
+            "minUnit": 3,
+            "rule": {
+              "type": "OR"
+            },
+            "courses": [
+              {
+                "code": "PHYS3034",
+                "name": "Electricity and Magnetism II",
+                "unit": 3
+              },
+              {
+                "code": "PHYS4051",
+                "name": "Quantum Mechanics II",
+                "unit": 3
+              }
+            ],
+            "groups": []
+          },
+          {
+            "id": "682bd902-6a5a-45ee-9d55-bdc5f9139aba",
+            "name": "Advanced Mathematics",
+            "description": "",
+            "minUnit": 3,
+            "rule": {
+              "type": "OR"
+            },
+            "courses": [
+              {
+                "code": "MATH3033",
+                "name": "Real Analysis",
+                "unit": 4
+              },
+              {
+                "code": "MATH3121",
+                "name": "Abstract Algebra",
+                "unit": 3
+              },
+              {
+                "code": "MATH3131",
+                "name": "Honors in Linear and Abstract Algebra II",
+                "unit": 4
+              },
+              {
+                "code": "MATH4223",
+                "name": "Differential Geometry",
+                "unit": 3
+              }
+            ],
+            "groups": []
+          }
+        ]
+      }
+    ]
+  }
+}

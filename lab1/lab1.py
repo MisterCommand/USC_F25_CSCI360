@@ -50,7 +50,30 @@ def breadth_first_search(stack):
 
     # --- v ADD YOUR CODE HERE v --- #
 
-    return flip_sequence
+    queue = deque([(stack, [])]) # queue to store the state of the stack to be explored and the sequence of flips
+    visited = {(tuple(stack.order), tuple(stack.orientations))} # set to store visited states to avoid loops
+    count = 0
+
+    while queue:
+
+        current_stack = queue.popleft() # FIFO
+        count += 1
+
+        # If the stack deque is ordered, return the flip sequence
+        if current_stack[0].check_ordered():
+            return current_stack[1]
+
+        # for each flip in the sequence
+        for flip in range(1, current_stack[0].num_books + 1):
+            new_stack = current_stack[0].copy()
+            new_stack.flip_stack(flip)
+            new_sequence = current_stack[1] + [flip]
+            # if the new stack is not visited, add it to the queue and visited set
+            if (tuple(new_stack.order), tuple(new_stack.orientations)) not in visited:
+                queue.append((new_stack, new_sequence))
+                visited.add((tuple(new_stack.order), tuple(new_stack.orientations)))
+
+    return current_stack[1]
     # ---------------------------- #
 
 
@@ -59,6 +82,27 @@ def depth_first_search(stack):
 
     # --- v ADD YOUR CODE HERE v --- #
 
+    queue = deque([(stack, [])]) # queue to store the state of the stack to be explored and the sequence of flips
+    visited = {(tuple(stack.order), tuple(stack.orientations))} # set to store visited states to avoid loops
+    count = 0
 
-    return flip_sequence
+    while queue:
+        current_stack = queue.pop() # LIFO
+        count += 1
+
+        if current_stack[0].check_ordered():
+            return current_stack[1]
+
+        # for each flip in the sequence
+        for flip in range(1, current_stack[0].num_books + 1):
+            new_stack = current_stack[0].copy()
+            new_stack.flip_stack(flip)
+            new_sequence = current_stack[1] + [flip]
+
+            # if the new stack is not visited, add it to the queue and visited set
+            if (tuple(new_stack.order), tuple(new_stack.orientations)) not in visited:
+                queue.append((new_stack, new_sequence))
+                visited.add((tuple(new_stack.order), tuple(new_stack.orientations)))
+
+    return current_stack[1]
     # ---------------------------- #
